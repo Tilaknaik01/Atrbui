@@ -1,8 +1,11 @@
 package ty;
 
+import org.testng.annotations.Test;
+
 public class Pgm1
 {
-	public static void main(String[] args)
+	@Test
+	public void main()
 	{
 		{
 			System.out.println("laka laka tilaka");
